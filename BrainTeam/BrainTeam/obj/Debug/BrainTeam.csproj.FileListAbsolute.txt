@@ -1,0 +1,11 @@
+C:\Users\asus\source\repos\BrainTeam\BrainTeam\obj\Debug\BrainTeam.csprojAssemblyReference.cache
+C:\Users\asus\source\repos\BrainTeam\BrainTeam\obj\Debug\BrainTeam.Form1.resources
+C:\Users\asus\source\repos\BrainTeam\BrainTeam\obj\Debug\BrainTeam.Properties.Resources.resources
+C:\Users\asus\source\repos\BrainTeam\BrainTeam\obj\Debug\BrainTeam.csproj.GenerateResource.cache
+C:\Users\asus\source\repos\BrainTeam\BrainTeam\obj\Debug\BrainTeam.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\BrainTeam\BrainTeam\bin\Debug\BrainTeam.exe.config
+C:\Users\asus\source\repos\BrainTeam\BrainTeam\bin\Debug\BrainTeam.exe
+C:\Users\asus\source\repos\BrainTeam\BrainTeam\bin\Debug\BrainTeam.pdb
+C:\Users\asus\source\repos\BrainTeam\BrainTeam\obj\Debug\BrainTeam.exe
+C:\Users\asus\source\repos\BrainTeam\BrainTeam\obj\Debug\BrainTeam.pdb
+C:\Users\asus\source\repos\BrainTeam\BrainTeam\obj\Debug\BrainTeam.Form2.resources
