@@ -81,9 +81,9 @@
             this.btn_soru5_b = new System.Windows.Forms.RadioButton();
             this.btn_soru5_a = new System.Windows.Forms.RadioButton();
             this.soru5 = new System.Windows.Forms.Label();
-            this.pictureBox_amblem = new System.Windows.Forms.PictureBox();
             this.btn_next = new System.Windows.Forms.Button();
             this.timersorular = new System.Windows.Forms.Timer(this.components);
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.groupBox_soru1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picturebox_soru1_d)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picturebox_soru1_c)).BeginInit();
@@ -109,7 +109,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picturebox_soru5_c)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picturebox_soru5_b)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picturebox_soru5_a)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_amblem)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // lbl_sorular
@@ -128,6 +128,7 @@
             // 
             // groupBox_soru1
             // 
+            this.groupBox_soru1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.groupBox_soru1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("groupBox_soru1.BackgroundImage")));
             this.groupBox_soru1.Controls.Add(this.picturebox_soru1_d);
             this.groupBox_soru1.Controls.Add(this.picturebox_soru1_c);
@@ -140,7 +141,7 @@
             this.groupBox_soru1.Controls.Add(this.soru1);
             this.groupBox_soru1.Font = new System.Drawing.Font("OCR A Extended", 12F);
             this.groupBox_soru1.ForeColor = System.Drawing.SystemColors.Control;
-            this.groupBox_soru1.Location = new System.Drawing.Point(12, 40);
+            this.groupBox_soru1.Location = new System.Drawing.Point(14, 39);
             this.groupBox_soru1.Name = "groupBox_soru1";
             this.groupBox_soru1.Size = new System.Drawing.Size(871, 132);
             this.groupBox_soru1.TabIndex = 1;
@@ -190,55 +191,62 @@
             // btn_soru1_d
             // 
             this.btn_soru1_d.AutoSize = true;
+            this.btn_soru1_d.BackColor = System.Drawing.Color.Transparent;
             this.btn_soru1_d.Location = new System.Drawing.Point(664, 64);
             this.btn_soru1_d.Name = "btn_soru1_d";
             this.btn_soru1_d.Size = new System.Drawing.Size(14, 13);
             this.btn_soru1_d.TabIndex = 4;
             this.btn_soru1_d.TabStop = true;
-            this.btn_soru1_d.UseVisualStyleBackColor = true;
+            this.btn_soru1_d.UseVisualStyleBackColor = false;
             // 
             // btn_soru1_c
             // 
             this.btn_soru1_c.AutoSize = true;
+            this.btn_soru1_c.BackColor = System.Drawing.Color.Transparent;
             this.btn_soru1_c.Location = new System.Drawing.Point(449, 64);
             this.btn_soru1_c.Name = "btn_soru1_c";
             this.btn_soru1_c.Size = new System.Drawing.Size(14, 13);
             this.btn_soru1_c.TabIndex = 3;
             this.btn_soru1_c.TabStop = true;
-            this.btn_soru1_c.UseVisualStyleBackColor = true;
+            this.btn_soru1_c.UseVisualStyleBackColor = false;
             // 
             // btn_soru1_b
             // 
             this.btn_soru1_b.AutoSize = true;
+            this.btn_soru1_b.BackColor = System.Drawing.Color.Transparent;
+            this.btn_soru1_b.ForeColor = System.Drawing.Color.Transparent;
             this.btn_soru1_b.Location = new System.Drawing.Point(225, 64);
             this.btn_soru1_b.Name = "btn_soru1_b";
             this.btn_soru1_b.Size = new System.Drawing.Size(14, 13);
             this.btn_soru1_b.TabIndex = 2;
             this.btn_soru1_b.TabStop = true;
-            this.btn_soru1_b.UseVisualStyleBackColor = true;
+            this.btn_soru1_b.UseVisualStyleBackColor = false;
             // 
             // btn_soru1_a
             // 
             this.btn_soru1_a.AutoSize = true;
+            this.btn_soru1_a.BackColor = System.Drawing.Color.Transparent;
+            this.btn_soru1_a.ForeColor = System.Drawing.Color.Transparent;
             this.btn_soru1_a.Location = new System.Drawing.Point(23, 64);
             this.btn_soru1_a.Name = "btn_soru1_a";
             this.btn_soru1_a.Size = new System.Drawing.Size(14, 13);
             this.btn_soru1_a.TabIndex = 1;
             this.btn_soru1_a.TabStop = true;
-            this.btn_soru1_a.UseVisualStyleBackColor = true;
+            this.btn_soru1_a.UseVisualStyleBackColor = false;
             // 
             // soru1
             // 
+            this.soru1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.soru1.AutoSize = true;
             this.soru1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.soru1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.soru1.Font = new System.Drawing.Font("OCR A Extended", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.soru1.Image = ((System.Drawing.Image)(resources.GetObject("soru1.Image")));
-            this.soru1.Location = new System.Drawing.Point(331, 13);
+            this.soru1.Location = new System.Drawing.Point(194, 0);
             this.soru1.Name = "soru1";
-            this.soru1.Size = new System.Drawing.Size(240, 19);
+            this.soru1.Size = new System.Drawing.Size(553, 19);
             this.soru1.TabIndex = 0;
-            this.soru1.Text = "Soru 1 buraya yazılacak";
+            this.soru1.Text = "İhtiyar adamın bastonunun ucundaki toplar hangi renkti?";
             // 
             // groupBox_soru2
             // 
@@ -304,42 +312,46 @@
             // btn_soru2_d
             // 
             this.btn_soru2_d.AutoSize = true;
+            this.btn_soru2_d.BackColor = System.Drawing.Color.Transparent;
             this.btn_soru2_d.Location = new System.Drawing.Point(664, 52);
             this.btn_soru2_d.Name = "btn_soru2_d";
             this.btn_soru2_d.Size = new System.Drawing.Size(14, 13);
             this.btn_soru2_d.TabIndex = 4;
             this.btn_soru2_d.TabStop = true;
-            this.btn_soru2_d.UseVisualStyleBackColor = true;
+            this.btn_soru2_d.UseVisualStyleBackColor = false;
             // 
             // btn_soru2_c
             // 
             this.btn_soru2_c.AutoSize = true;
+            this.btn_soru2_c.BackColor = System.Drawing.Color.Transparent;
             this.btn_soru2_c.Location = new System.Drawing.Point(449, 52);
             this.btn_soru2_c.Name = "btn_soru2_c";
             this.btn_soru2_c.Size = new System.Drawing.Size(14, 13);
             this.btn_soru2_c.TabIndex = 3;
             this.btn_soru2_c.TabStop = true;
-            this.btn_soru2_c.UseVisualStyleBackColor = true;
+            this.btn_soru2_c.UseVisualStyleBackColor = false;
             // 
             // btn_soru2_b
             // 
             this.btn_soru2_b.AutoSize = true;
+            this.btn_soru2_b.BackColor = System.Drawing.Color.Transparent;
             this.btn_soru2_b.Location = new System.Drawing.Point(225, 52);
             this.btn_soru2_b.Name = "btn_soru2_b";
             this.btn_soru2_b.Size = new System.Drawing.Size(14, 13);
             this.btn_soru2_b.TabIndex = 2;
             this.btn_soru2_b.TabStop = true;
-            this.btn_soru2_b.UseVisualStyleBackColor = true;
+            this.btn_soru2_b.UseVisualStyleBackColor = false;
             // 
             // btn_soru2_a
             // 
             this.btn_soru2_a.AutoSize = true;
+            this.btn_soru2_a.BackColor = System.Drawing.Color.Transparent;
             this.btn_soru2_a.Location = new System.Drawing.Point(23, 52);
             this.btn_soru2_a.Name = "btn_soru2_a";
             this.btn_soru2_a.Size = new System.Drawing.Size(14, 13);
             this.btn_soru2_a.TabIndex = 1;
             this.btn_soru2_a.TabStop = true;
-            this.btn_soru2_a.UseVisualStyleBackColor = true;
+            this.btn_soru2_a.UseVisualStyleBackColor = false;
             // 
             // soru2
             // 
@@ -347,11 +359,11 @@
             this.soru2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.soru2.Font = new System.Drawing.Font("OCR A Extended", 12F);
             this.soru2.Image = ((System.Drawing.Image)(resources.GetObject("soru2.Image")));
-            this.soru2.Location = new System.Drawing.Point(331, 0);
+            this.soru2.Location = new System.Drawing.Point(265, 1);
             this.soru2.Name = "soru2";
-            this.soru2.Size = new System.Drawing.Size(240, 19);
+            this.soru2.Size = new System.Drawing.Size(357, 19);
             this.soru2.TabIndex = 0;
-            this.soru2.Text = "Soru 2 buraya yazılacak";
+            this.soru2.Text = "Kuşun kafasında kaç adet tüy vardı?";
             // 
             // groupBox_soru3
             // 
@@ -417,42 +429,46 @@
             // btn_soru3_d
             // 
             this.btn_soru3_d.AutoSize = true;
+            this.btn_soru3_d.BackColor = System.Drawing.Color.Transparent;
             this.btn_soru3_d.Location = new System.Drawing.Point(664, 52);
             this.btn_soru3_d.Name = "btn_soru3_d";
             this.btn_soru3_d.Size = new System.Drawing.Size(14, 13);
             this.btn_soru3_d.TabIndex = 4;
             this.btn_soru3_d.TabStop = true;
-            this.btn_soru3_d.UseVisualStyleBackColor = true;
+            this.btn_soru3_d.UseVisualStyleBackColor = false;
             // 
             // btn_soru3_c
             // 
             this.btn_soru3_c.AutoSize = true;
+            this.btn_soru3_c.BackColor = System.Drawing.Color.Transparent;
             this.btn_soru3_c.Location = new System.Drawing.Point(449, 52);
             this.btn_soru3_c.Name = "btn_soru3_c";
             this.btn_soru3_c.Size = new System.Drawing.Size(14, 13);
             this.btn_soru3_c.TabIndex = 3;
             this.btn_soru3_c.TabStop = true;
-            this.btn_soru3_c.UseVisualStyleBackColor = true;
+            this.btn_soru3_c.UseVisualStyleBackColor = false;
             // 
             // btn_soru3_b
             // 
             this.btn_soru3_b.AutoSize = true;
+            this.btn_soru3_b.BackColor = System.Drawing.Color.Transparent;
             this.btn_soru3_b.Location = new System.Drawing.Point(225, 52);
             this.btn_soru3_b.Name = "btn_soru3_b";
             this.btn_soru3_b.Size = new System.Drawing.Size(14, 13);
             this.btn_soru3_b.TabIndex = 2;
             this.btn_soru3_b.TabStop = true;
-            this.btn_soru3_b.UseVisualStyleBackColor = true;
+            this.btn_soru3_b.UseVisualStyleBackColor = false;
             // 
             // btn_soru3_a
             // 
             this.btn_soru3_a.AutoSize = true;
+            this.btn_soru3_a.BackColor = System.Drawing.Color.Transparent;
             this.btn_soru3_a.Location = new System.Drawing.Point(23, 52);
             this.btn_soru3_a.Name = "btn_soru3_a";
             this.btn_soru3_a.Size = new System.Drawing.Size(14, 13);
             this.btn_soru3_a.TabIndex = 1;
             this.btn_soru3_a.TabStop = true;
-            this.btn_soru3_a.UseVisualStyleBackColor = true;
+            this.btn_soru3_a.UseVisualStyleBackColor = false;
             // 
             // soru3
             // 
@@ -460,11 +476,11 @@
             this.soru3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.soru3.Font = new System.Drawing.Font("OCR A Extended", 12F);
             this.soru3.Image = ((System.Drawing.Image)(resources.GetObject("soru3.Image")));
-            this.soru3.Location = new System.Drawing.Point(345, 1);
+            this.soru3.Location = new System.Drawing.Point(204, -3);
             this.soru3.Name = "soru3";
-            this.soru3.Size = new System.Drawing.Size(240, 19);
+            this.soru3.Size = new System.Drawing.Size(503, 19);
             this.soru3.TabIndex = 0;
-            this.soru3.Text = "Soru 3 buraya yazılacak";
+            this.soru3.Text = "Çocuğun takip ettiği ayak izlerinin şekli nasıldı?";
             // 
             // groupBox_soru4
             // 
@@ -489,6 +505,7 @@
             // 
             // picturebox_soru4_d
             // 
+            this.picturebox_soru4_d.Image = ((System.Drawing.Image)(resources.GetObject("picturebox_soru4_d.Image")));
             this.picturebox_soru4_d.Location = new System.Drawing.Point(684, 23);
             this.picturebox_soru4_d.Name = "picturebox_soru4_d";
             this.picturebox_soru4_d.Size = new System.Drawing.Size(111, 79);
@@ -529,42 +546,46 @@
             // btn_soru4_d
             // 
             this.btn_soru4_d.AutoSize = true;
+            this.btn_soru4_d.BackColor = System.Drawing.Color.Transparent;
             this.btn_soru4_d.Location = new System.Drawing.Point(664, 52);
             this.btn_soru4_d.Name = "btn_soru4_d";
             this.btn_soru4_d.Size = new System.Drawing.Size(14, 13);
             this.btn_soru4_d.TabIndex = 4;
             this.btn_soru4_d.TabStop = true;
-            this.btn_soru4_d.UseVisualStyleBackColor = true;
+            this.btn_soru4_d.UseVisualStyleBackColor = false;
             // 
             // btn_soru4_c
             // 
             this.btn_soru4_c.AutoSize = true;
+            this.btn_soru4_c.BackColor = System.Drawing.Color.Transparent;
             this.btn_soru4_c.Location = new System.Drawing.Point(449, 52);
             this.btn_soru4_c.Name = "btn_soru4_c";
             this.btn_soru4_c.Size = new System.Drawing.Size(14, 13);
             this.btn_soru4_c.TabIndex = 3;
             this.btn_soru4_c.TabStop = true;
-            this.btn_soru4_c.UseVisualStyleBackColor = true;
+            this.btn_soru4_c.UseVisualStyleBackColor = false;
             // 
             // btn_soru4_b
             // 
             this.btn_soru4_b.AutoSize = true;
+            this.btn_soru4_b.BackColor = System.Drawing.Color.Transparent;
             this.btn_soru4_b.Location = new System.Drawing.Point(225, 52);
             this.btn_soru4_b.Name = "btn_soru4_b";
             this.btn_soru4_b.Size = new System.Drawing.Size(14, 13);
             this.btn_soru4_b.TabIndex = 2;
             this.btn_soru4_b.TabStop = true;
-            this.btn_soru4_b.UseVisualStyleBackColor = true;
+            this.btn_soru4_b.UseVisualStyleBackColor = false;
             // 
             // btn_soru4_a
             // 
             this.btn_soru4_a.AutoSize = true;
+            this.btn_soru4_a.BackColor = System.Drawing.Color.Transparent;
             this.btn_soru4_a.Location = new System.Drawing.Point(23, 52);
             this.btn_soru4_a.Name = "btn_soru4_a";
             this.btn_soru4_a.Size = new System.Drawing.Size(14, 13);
             this.btn_soru4_a.TabIndex = 1;
             this.btn_soru4_a.TabStop = true;
-            this.btn_soru4_a.UseVisualStyleBackColor = true;
+            this.btn_soru4_a.UseVisualStyleBackColor = false;
             // 
             // soru4
             // 
@@ -572,11 +593,11 @@
             this.soru4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.soru4.Font = new System.Drawing.Font("OCR A Extended", 12F);
             this.soru4.Image = ((System.Drawing.Image)(resources.GetObject("soru4.Image")));
-            this.soru4.Location = new System.Drawing.Point(331, 1);
+            this.soru4.Location = new System.Drawing.Point(296, 0);
             this.soru4.Name = "soru4";
-            this.soru4.Size = new System.Drawing.Size(240, 19);
+            this.soru4.Size = new System.Drawing.Size(326, 19);
             this.soru4.TabIndex = 0;
-            this.soru4.Text = "Soru 4 buraya yazılacak";
+            this.soru4.Text = "Çocuğun yediği çikolata nasıldı?";
             // 
             // groupBox_soru5
             // 
@@ -642,42 +663,46 @@
             // btn_soru5_d
             // 
             this.btn_soru5_d.AutoSize = true;
+            this.btn_soru5_d.BackColor = System.Drawing.Color.Transparent;
             this.btn_soru5_d.Location = new System.Drawing.Point(664, 69);
             this.btn_soru5_d.Name = "btn_soru5_d";
             this.btn_soru5_d.Size = new System.Drawing.Size(14, 13);
             this.btn_soru5_d.TabIndex = 4;
             this.btn_soru5_d.TabStop = true;
-            this.btn_soru5_d.UseVisualStyleBackColor = true;
+            this.btn_soru5_d.UseVisualStyleBackColor = false;
             // 
             // btn_soru5_c
             // 
             this.btn_soru5_c.AutoSize = true;
+            this.btn_soru5_c.BackColor = System.Drawing.Color.Transparent;
             this.btn_soru5_c.Location = new System.Drawing.Point(449, 69);
             this.btn_soru5_c.Name = "btn_soru5_c";
             this.btn_soru5_c.Size = new System.Drawing.Size(14, 13);
             this.btn_soru5_c.TabIndex = 3;
             this.btn_soru5_c.TabStop = true;
-            this.btn_soru5_c.UseVisualStyleBackColor = true;
+            this.btn_soru5_c.UseVisualStyleBackColor = false;
             // 
             // btn_soru5_b
             // 
             this.btn_soru5_b.AutoSize = true;
+            this.btn_soru5_b.BackColor = System.Drawing.Color.Transparent;
             this.btn_soru5_b.Location = new System.Drawing.Point(225, 69);
             this.btn_soru5_b.Name = "btn_soru5_b";
             this.btn_soru5_b.Size = new System.Drawing.Size(14, 13);
             this.btn_soru5_b.TabIndex = 2;
             this.btn_soru5_b.TabStop = true;
-            this.btn_soru5_b.UseVisualStyleBackColor = true;
+            this.btn_soru5_b.UseVisualStyleBackColor = false;
             // 
             // btn_soru5_a
             // 
             this.btn_soru5_a.AutoSize = true;
+            this.btn_soru5_a.BackColor = System.Drawing.Color.Transparent;
             this.btn_soru5_a.Location = new System.Drawing.Point(23, 69);
             this.btn_soru5_a.Name = "btn_soru5_a";
             this.btn_soru5_a.Size = new System.Drawing.Size(14, 13);
             this.btn_soru5_a.TabIndex = 1;
             this.btn_soru5_a.TabStop = true;
-            this.btn_soru5_a.UseVisualStyleBackColor = true;
+            this.btn_soru5_a.UseVisualStyleBackColor = false;
             // 
             // soru5
             // 
@@ -685,22 +710,11 @@
             this.soru5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.soru5.Font = new System.Drawing.Font("OCR A Extended", 12F);
             this.soru5.Image = ((System.Drawing.Image)(resources.GetObject("soru5.Image")));
-            this.soru5.Location = new System.Drawing.Point(331, 16);
+            this.soru5.Location = new System.Drawing.Point(210, -3);
             this.soru5.Name = "soru5";
-            this.soru5.Size = new System.Drawing.Size(240, 19);
+            this.soru5.Size = new System.Drawing.Size(468, 19);
             this.soru5.TabIndex = 0;
-            this.soru5.Text = "Soru 5 buraya yazılacak";
-            // 
-            // pictureBox_amblem
-            // 
-            this.pictureBox_amblem.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox_amblem.BackgroundImage")));
-            this.pictureBox_amblem.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_amblem.Image")));
-            this.pictureBox_amblem.Location = new System.Drawing.Point(830, 0);
-            this.pictureBox_amblem.Name = "pictureBox_amblem";
-            this.pictureBox_amblem.Size = new System.Drawing.Size(47, 48);
-            this.pictureBox_amblem.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox_amblem.TabIndex = 11;
-            this.pictureBox_amblem.TabStop = false;
+            this.soru5.Text = "Çocuğun kemerinden asılan boncuklar ne renkti?";
             // 
             // btn_next
             // 
@@ -709,7 +723,7 @@
             this.btn_next.Name = "btn_next";
             this.btn_next.Size = new System.Drawing.Size(143, 32);
             this.btn_next.TabIndex = 12;
-            this.btn_next.Text = "İleri ➡";
+            this.btn_next.Text = "Ileri ➡";
             this.btn_next.UseVisualStyleBackColor = true;
             this.btn_next.Click += new System.EventHandler(this.btn_sonuc_goster_Click);
             // 
@@ -717,18 +731,30 @@
             // 
             this.timersorular.Tick += new System.EventHandler(this.timersorular_Tick);
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(835, 0);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(48, 46);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 13;
+            this.pictureBox5.TabStop = false;
+            // 
             // Form1
             // 
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(885, 725);
+            this.ClientSize = new System.Drawing.Size(888, 723);
+            this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.btn_next);
-            this.Controls.Add(this.pictureBox_amblem);
             this.Controls.Add(this.groupBox_soru5);
             this.Controls.Add(this.groupBox_soru4);
             this.Controls.Add(this.groupBox_soru3);
             this.Controls.Add(this.groupBox_soru2);
             this.Controls.Add(this.groupBox_soru1);
             this.Controls.Add(this.lbl_sorular);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.groupBox_soru1.ResumeLayout(false);
             this.groupBox_soru1.PerformLayout();
@@ -760,7 +786,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picturebox_soru5_c)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picturebox_soru5_b)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picturebox_soru5_a)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_amblem)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -802,7 +828,6 @@
         private System.Windows.Forms.RadioButton btn_soru5_b;
         private System.Windows.Forms.RadioButton btn_soru5_a;
         private System.Windows.Forms.Label soru5;
-        private System.Windows.Forms.PictureBox pictureBox_amblem;
         private System.Windows.Forms.Button btn_next;
         private System.Windows.Forms.Timer timersorular;
         private System.Windows.Forms.PictureBox picturebox_soru1_d;
@@ -822,6 +847,7 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox5;
     }
 }
 

@@ -23,7 +23,7 @@ namespace BrainTeam
         {
             Form1 soruekrani = new Form1();
             soruekrani.Close();
-            Form2 analizformu = new Form2();
+            sonucekrani analizformu = new sonucekrani();
             analizformu.Show();
             this.Hide();
            

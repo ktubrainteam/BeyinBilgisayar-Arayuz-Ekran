@@ -38,6 +38,7 @@
             this.grpbx_sonuclarintumu = new System.Windows.Forms.GroupBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox_amblem = new System.Windows.Forms.PictureBox();
+            this.lbl_kullanici = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
@@ -115,6 +116,7 @@
             // grpbx_sonuclarintumu
             // 
             this.grpbx_sonuclarintumu.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("grpbx_sonuclarintumu.BackgroundImage")));
+            this.grpbx_sonuclarintumu.Controls.Add(this.lbl_kullanici);
             this.grpbx_sonuclarintumu.Controls.Add(this.pictureBox1);
             this.grpbx_sonuclarintumu.Font = new System.Drawing.Font("OCR A Extended", 15.75F);
             this.grpbx_sonuclarintumu.ForeColor = System.Drawing.SystemColors.ButtonFace;
@@ -147,6 +149,18 @@
             this.pictureBox_amblem.TabIndex = 12;
             this.pictureBox_amblem.TabStop = false;
             // 
+            // lbl_kullanici
+            // 
+            this.lbl_kullanici.AutoSize = true;
+            this.lbl_kullanici.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_kullanici.Font = new System.Drawing.Font("OCR A Extended", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_kullanici.ForeColor = System.Drawing.Color.White;
+            this.lbl_kullanici.Location = new System.Drawing.Point(178, 25);
+            this.lbl_kullanici.Name = "lbl_kullanici";
+            this.lbl_kullanici.Size = new System.Drawing.Size(98, 17);
+            this.lbl_kullanici.TabIndex = 8;
+            this.lbl_kullanici.Text = "Kullanıcı";
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -162,12 +176,14 @@
             this.Controls.Add(this.lbl_anlikveri);
             this.Controls.Add(this.dataGridView1);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form2";
             this.Text = "Form2";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.grpbx_sonuclarintumu.ResumeLayout(false);
+            this.grpbx_sonuclarintumu.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_amblem)).EndInit();
             this.ResumeLayout(false);
@@ -186,5 +202,6 @@
         private System.Windows.Forms.GroupBox grpbx_sonuclarintumu;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox_amblem;
+        private System.Windows.Forms.Label lbl_kullanici;
     }
 }
